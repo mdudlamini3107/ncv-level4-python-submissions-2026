@@ -1,0 +1,36 @@
+==============================================================================
+REJECTED RECORDS - ERROR LOG
+==============================================================================
+Total rejected records: 10
+------------------------------------------------------------------------------
+
+Line 211: REASON: duplicate meter number 'M001'
+  Raw: M001,Duplicate Meter,900,930,Mamelodi
+
+Line 212: REASON: missing previous reading
+  Raw: M211,Missing Reading,,950,Soshanguve
+
+Line 213: REASON: negative previous reading (-10)
+  Raw: M212,Negative Reading,-10,20,Mamelodi
+
+Line 214: REASON: current reading (1100) is below previous reading (1200)
+  Raw: M213,Reversed Reading,1200,1100,Ga-Rankuwa
+
+Line 215: REASON: non-numeric previous reading 'abc'
+  Raw: M214,Invalid Reading,abc,1230,Atteridgeville
+
+Line 216: REASON: missing area
+  Raw: M215,Missing Area,900,950,
+
+Line 217: REASON: wrong number of fields (expected 5, got 4)
+  Raw: M216,Too,Few,Fields
+
+Line 218: REASON: wrong number of fields (expected 5, got 6)
+  Raw: M217,Extra,100,120,Mamelodi,EXTRA
+
+Line 219: REASON: missing household name
+  Raw: M218,,100,150,Soshanguve
+
+Line 220: REASON: missing household name
+  Raw: M219, ,100,130,Mamelodi
+
